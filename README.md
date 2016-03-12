@@ -28,7 +28,7 @@ One easy place to obtain a communications network to perform graph analyses is y
 
 3. Extract a graph from your email MBox as follows:
 
-        $ tribe-admin.py extract -w myemails.graphml myemails.mbox
+        $ python tribe-admin.py extract -w myemails.graphml myemails.mbox
 
     Be patient, this could take some time, on my Macbook Pro it took 12 minutes to perform the complete extraction on an MBox that was 7.5 GB.
 
